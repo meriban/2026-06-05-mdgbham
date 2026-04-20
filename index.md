@@ -191,14 +191,15 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Participants can <strong>either</strong> bring their own laptop with a
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on, <strong>or</strong> use one of the machine provided by the venue (please note that in this case your start time will be earlier to set up the machine). 
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  
 </p>
+<p>If you bring <strong>your own laptop</strong> ensure that the software listed <a href="#setup">below</a> is installed and running on it.</p>
 
 {% comment %}
 ACCESSIBILITY
@@ -240,12 +241,12 @@ WORKSHOP RECORDINGS
 
 Modify or remove the block below if you plan to record the workshop.
 {% endcomment %}
-<p id="recordings">
+<!-- <p id="recordings">
   <strong>Workshop Recordings:</strong>
   Carpentries workshops are designed to be interactive rather than lecture-based, with lessons that build upon one another.
   To foster a positive online learning environment, we strongly recommend that participants join in real time.
   As a result, workshop recordings are not recommended and may not be available to learners.
-</p>
+</p> -->
 {% comment %}
 CONTACT EMAIL ADDRESS
 
@@ -438,7 +439,8 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  In addition, you will need an up-to-date web browser (Firefox, Microsoft Edge, Chrome or Safari, 
+  <strong>not</strong> Internet Explorer).
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
